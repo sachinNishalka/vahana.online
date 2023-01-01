@@ -79,7 +79,11 @@ body {
 }
 .navbar-light .navbar-brand {
 	color: #000;
+<<<<<<< HEAD
 	font-size: 40px;
+=======
+	font-size: 25px;
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 	text-transform: uppercase;
 	font-weight:normal;
 	letter-spacing: 2px;
@@ -224,6 +228,7 @@ text-indent: 20px;
 }
 
 
+<<<<<<< HEAD
 
 .navround {
 	border-radius: 60px;
@@ -231,3 +236,5 @@ text-indent: 20px;
 }
 
 
+=======
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc

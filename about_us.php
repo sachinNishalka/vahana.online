@@ -1,16 +1,23 @@
+<<<<<<< HEAD
 
 <?php
 session_start();
 ?>
 <!DOCTYPE html>
 
+=======
+<!DOCTYPE html>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+=======
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     <script src="https://kit.fontawesome.com/d5af73a83e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -23,9 +30,17 @@ session_start();
 </head>
 <body>
 
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg  navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><span class="text-white  btn-dark btn-sl">Vah</span><span class="btn-sl btn-light"><b>ana</b></span></a>
+=======
+<h1 class="text-center p-3 text-white">Insert Vehical details</h1>
+
+<nav class="navbar navbar-expand-lg  navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.php"><span class="text-white  btn-dark btn-sl">VA</span><span class="btn-sl btn-light"><b>HANA</b></span></a>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,11 +48,16 @@ session_start();
             <ul class="navbar-nav navround ms-auto mb-2 mb-lg-0 bg-dark">
 				<div class="btn ">
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="./index.php">Home</a>
+=======
+                <a class="nav-link" href="home.php">Home</a>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
               </li>
 				</div>
 				<div class="btn ">
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="display_all.php">Vehicle Store</a>
               </li> 
 				</div>
@@ -60,11 +80,27 @@ session_start();
               </li>
 				</div>";}
 				?>
+=======
+              <a class="nav-link" href="display_all.php">vehical store</a>
+              </li> 
+				</div>
+				<div class="btn ">
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Spare Parts</a>
+              </li> 
+				</div>
+				<div class="btn ">
+              <li class="nav-item">
+                <a class="nav-link" href="./admin_area/index.php">Post an Advertisement</a>
+              </li>
+				</div>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 				<div class="btn ">
               <li class="nav-item">
                 <a class="nav-link" href="about_us.php">About us</a>
               </li> 
 				</div>
+<<<<<<< HEAD
           <?php
          if(!isset($_SESSION['username'])){
           echo 
@@ -82,6 +118,14 @@ session_start();
          
          ?>
 				
+=======
+				<div class="btn ">
+              <li class="nav-item ">
+				  
+                <a class="nav-link btn btn-warning " style="scale:0.9" href="#contact"><i class="bi bi-person-circle"></i> Profile</a>
+              </li>  
+				</div>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
             </ul>
           </div>
         </div>
@@ -91,7 +135,11 @@ session_start();
 
 
 
+<<<<<<< HEAD
 <section id="about">
+=======
+
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 
 
     <div class="description">
@@ -102,7 +150,10 @@ session_start();
         </div>
 
     </div>
+<<<<<<< HEAD
 	</section>
+=======
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     <div class="container-fluid">
         <div class="header">
             <h1>OUR TEAM</h1>
@@ -233,8 +284,11 @@ session_start();
             </div>
         </div>
     </section>
+<<<<<<< HEAD
 	 <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+=======
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     <?php
  include("./includes/footer.php");
  ?>

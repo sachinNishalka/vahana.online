@@ -17,7 +17,11 @@ session_start();
     <link rel="stylesheet" href="style.css">
     <!-- ayana link -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+=======
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> -->
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -34,15 +38,26 @@ crossorigin="anonymous"></script>
 <!--nav bar-->
 <nav class="navbar navbar-expand-lg  navbar-light fixed-top">
         <div class="container-fluid">
+<<<<<<< HEAD
           <a class="navbar-brand" href="#"><span class="text-white  btn-dark btn-sl">Vah</span><span class="btn-sl btn-light"><b>ana</b></span></a>
+=======
+          <a class="navbar-brand" href="#"><span class="text-white  btn-dark btn-sl">Vehi</span><span class="btn-sl btn-light"><b>cle</b></span></a>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<<<<<<< HEAD
             <ul class="navbar-nav navround ms-auto mb-2 mb-lg-0 bg-dark">
 				<div class="btn ">
               <li class="nav-item">
                 <a class="nav-link" href="./index.php">Home</a>
+=======
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-dark">
+				<div class="btn ">
+              <li class="nav-item">
+                <a class="nav-link" href="./home.php">Home</a>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
               </li>
 				</div>
 				<div class="btn ">
@@ -55,6 +70,7 @@ crossorigin="anonymous"></script>
                 <a class="nav-link" href="">Spare Parts</a>
               </li> 
 				</div>
+<<<<<<< HEAD
 				<?php 
 				if(!isset($_SESSION['username'])){
 					echo "<div class='btn '>
@@ -68,6 +84,13 @@ crossorigin="anonymous"></script>
               </li>
 				</div>";}
 				?>
+=======
+				<div class="btn ">
+              <li class="nav-item">
+                <a class="nav-link" href="./admin_area/index.php">Post an Advertisement</a>
+              </li>
+				</div>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 				<div class="btn ">
               <li class="nav-item">
                 <a class="nav-link" href="about_us.php">About us</a>
@@ -219,8 +242,12 @@ getcategories();
 </div>
 
     
+<<<<<<< HEAD
  <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+=======
+
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
    
 </body>
 </html>

@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 .btn-warning{
 	border-radius: 150px;
 	
 }*{
+=======
+*{
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,6 +25,7 @@
     line-height: 25px;
 }
 .container-fluid{
+<<<<<<< HEAD
     margin-top: 10px;
     text-align: center;
     background: transparent;
@@ -31,6 +36,13 @@
 	
 	color:black;
 }
+=======
+    margin-top: 2%;
+    text-align: center;
+    background: #f5f5f5;
+    
+}
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 .header{
     padding-top: 30px;
     color:#444;
@@ -164,7 +176,11 @@
 }
 .contain .contactInfo .box .text{
      display: flex;
+<<<<<<< HEAD
      padding-top: 10%;
+=======
+     padding-top: 5%;
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
      font-size: 16px;
      flex-direction: column;
      font-weight:400;
@@ -182,6 +198,7 @@
     height: 200px;
     width: 200px;
 }
+<<<<<<< HEAD
 
 .navround {
 	
@@ -225,3 +242,5 @@
 	padding: .5rem 1rem;
 	line-height: 2.3;
 }
+=======
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc

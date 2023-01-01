@@ -11,6 +11,7 @@ session_start();
     <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<<<<<<< HEAD
 	  <link rel="stylesheet" href="loginbox.css">
   </head>
   <body>
@@ -19,6 +20,13 @@ session_start();
     <h2 class="text-center">Login</h2>
 <br>
 	   
+=======
+  </head>
+  <body>
+   <div class="container-fluid my-3">
+    <h2 class="text-center">Login</h2>
+
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
     <div class="row d-flex align-items-center justify-content-center">
        <div class="col-lg-12 col-xl-6">
         <form action="" method="post">
@@ -31,6 +39,7 @@ session_start();
           <!-- password-->
           <div class="form-outline mb-4">
             <label for="user_password" class="form-label">Password</label>
+<<<<<<< HEAD
             <input type="password" id="user_password" class="form-control" placeholder="Enter your password" autocomplete="off" required="required" name="user_password"/>
           </div>
         
@@ -40,13 +49,27 @@ session_start();
 			  
             <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account?<a href="user_registeration.php" class="text-danger">Register</a></p>
         	
+=======
+            <input type="password" id="user_password" class="form-control" placeholder="Enter your password" autocomplete="off" name="user_password"/>
+          </div>
+        
+          <div class="mt-4 pt-2">
+            <input type="submit" value="Login" class="bg-info py-2 px-3 border-0 " name="user_login">
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account?<a href="user_registeration.php" class="text-danger">Register</a></p>
+        
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
         </div>
 
         </form>
        </div>
     </div>
+<<<<<<< HEAD
 </div>
    
+=======
+
+   </div>
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
 
 
 
@@ -74,7 +97,11 @@ if(isset($_POST['user_login'])){
             echo "<script>alert('Login Successful')</script>";
             $_SESSION['username']=$user_username;
             //redirect
+<<<<<<< HEAD
             header("refresh:0.1;url=../display_all.php");
+=======
+            header("refresh:3;url=../display_all.php");
+>>>>>>> a2356ede0d13bfba58f44a706e4d1fa836bcd5fc
         }else{
             echo "<script>alert('Invalid Password')</script>";
             session_destroy();
