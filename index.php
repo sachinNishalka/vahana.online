@@ -201,6 +201,6 @@ getcategories();
 
     
 
-<p>Checking edit</p> 
+
 </body>
 </html>
