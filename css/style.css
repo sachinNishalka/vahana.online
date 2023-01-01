@@ -79,7 +79,7 @@ body {
 }
 .navbar-light .navbar-brand {
 	color: #000;
-	font-size: 25px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-weight:normal;
 	letter-spacing: 2px;
@@ -221,6 +221,13 @@ text-indent: 20px;
 
 #services {
 	margin-top: 50px;
+}
+
+
+
+.navround {
+	border-radius: 60px;
+	outline-style:double;
 }
 
 

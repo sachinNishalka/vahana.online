@@ -1,9 +1,16 @@
+
+<?php
+session_start();
+?>
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/d5af73a83e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -16,11 +23,9 @@
 </head>
 <body>
 
-<h1 class="text-center p-3 text-white">Insert Vehical details</h1>
-
 <nav class="navbar navbar-expand-lg  navbar-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="home.php"><span class="text-white  btn-dark btn-sl">VA</span><span class="btn-sl btn-light"><b>HANA</b></span></a>
+          <a class="navbar-brand" href="#"><span class="text-white  btn-dark btn-sl">Vah</span><span class="btn-sl btn-light"><b>ana</b></span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,35 +33,55 @@
             <ul class="navbar-nav navround ms-auto mb-2 mb-lg-0 bg-dark">
 				<div class="btn ">
               <li class="nav-item">
-                <a class="nav-link" href="home.php">Home</a>
+                <a class="nav-link" href="./index.php">Home</a>
               </li>
 				</div>
 				<div class="btn ">
               <li class="nav-item">
-              <a class="nav-link" href="display_all.php">vehical store</a>
+                <a class="nav-link" href="display_all.php">Vehicle Store</a>
               </li> 
 				</div>
-				<div class="btn ">
+				<div class="btn">
               <li class="nav-item">
-                <a class="nav-link" href="#services">Spare Parts</a>
+				  <a class="nav-link" href="">Spare Parts</a>
+				  
               </li> 
 				</div>
-				<div class="btn ">
-              <li class="nav-item">
-                <a class="nav-link" href="./admin_area/index.php">Post an Advertisement</a>
+				<?php 
+				if(!isset($_SESSION['username'])){
+					echo "<div class='btn '>
+              <li class='nav-item'>
+                <a class='nav-link' href='./users_area/user_login.php'>Post an Advertisement</a>
               </li>
-				</div>
+				</div>";
+				}else { echo "<div class='btn '>
+              <li class='nav-item'>
+                <a class='nav-link' href='./admin_area/index.php'>Post an Advertisement</a>
+              </li>
+				</div>";}
+				?>
 				<div class="btn ">
               <li class="nav-item">
                 <a class="nav-link" href="about_us.php">About us</a>
               </li> 
 				</div>
-				<div class="btn ">
-              <li class="nav-item ">
-				  
-                <a class="nav-link btn btn-warning " style="scale:0.9" href="#contact"><i class="bi bi-person-circle"></i> Profile</a>
-              </li>  
-				</div>
+          <?php
+         if(!isset($_SESSION['username'])){
+          echo 
+          "<div class='btn'>
+          <li class='nav-item'>
+            <a class='nav-link btn btn-warning' style='scale:0.9' href='./users_area/user_login.php'><i class='bi bi-person-circle'></i> Log In</a>
+          </li>  
+    </div>";
+         }else{echo 
+          "<div class='btn'>
+          <li class='nav-item'>
+            <a class='nav-link btn btn-warning' style='scale:0.9' href='./session/logout.php'><i class='bi bi-person-circle'></i>Log Out</a>
+          </li>  
+    </div>";}
+         
+         ?>
+				
             </ul>
           </div>
         </div>
@@ -66,7 +91,7 @@
 
 
 
-
+<section id="about">
 
 
     <div class="description">
@@ -77,6 +102,7 @@
         </div>
 
     </div>
+	</section>
     <div class="container-fluid">
         <div class="header">
             <h1>OUR TEAM</h1>
@@ -207,6 +233,8 @@
             </div>
         </div>
     </section>
+	 <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
     <?php
  include("./includes/footer.php");
  ?>

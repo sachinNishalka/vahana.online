@@ -1,7 +1,4 @@
-.btn-warning{
-	border-radius: 150px;
-	
-}*{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,15 +18,10 @@
     line-height: 25px;
 }
 .container-fluid{
-    margin-top: 10px;
+    margin-top: 2%;
     text-align: center;
-    background: transparent;
+    background: #f5f5f5;
     
-}
-.bi-person-circle{
-	font-size: 18px;
-	
-	color:black;
 }
 .header{
     padding-top: 30px;
@@ -164,7 +156,7 @@
 }
 .contain .contactInfo .box .text{
      display: flex;
-     padding-top: 10%;
+     padding-top: 5%;
      font-size: 16px;
      flex-direction: column;
      font-weight:400;
@@ -181,47 +173,4 @@
 .container img{
     height: 200px;
     width: 200px;
-}
-
-.navround {
-	
-
-	border-radius: 60px;
-	outline-style:double;
-}	
-
-
-#about {
-	margin-top: 100px;
-}
-
-.btn .navbar-nav{
-	
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: white;
-}
-.navbar-nav {
-	margin-top: 10px;
-	
-	opacity: 95%;
-}
-.navbar-light .navbar-brand {
-	color: #000;
-	font-size: 40px;
-	text-transform: uppercase;
-	font-weight:normal;
-	letter-spacing: 2px;
-	padding-left: 30px;
-}
-.navbar .getstarted {
-	background: #106eea;
-	margin-left: 30px;
-	border-radius: 4px;
-	font-weight: 400;
-	color: #fff;
-	text-decoration: none;
-	padding: .5rem 1rem;
-	line-height: 2.3;
 }
