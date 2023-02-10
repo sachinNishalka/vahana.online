@@ -37,7 +37,7 @@ session_start();
 				</div>
 				<div class="btn ">
               <li class="nav-item">
-                <a class="nav-link" href="">Spare Parts</a>
+                <a class="nav-link" href="spare_parts.php">Spare Parts</a>
               </li> 
 				</div>
 				<?php 
@@ -129,7 +129,7 @@ session_start();
       <!-- services section Starts -->
       
 			  
-              <section id="services" >
+              <!-- <section id="services" >
 				   <div class="container section-padding">
             <h1><center>SERVICES</center></h1>
             <div class="img">
@@ -162,7 +162,7 @@ session_start();
                       
             </div>
 				  </div>
-        </section>
+        </section> -->
       <!-- services section Ends -->
 
       <!-- portfolio strats -->
@@ -171,7 +171,7 @@ session_start();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Description</h2>
+                        <h2>Services</h2>
                         
                     </div>
                 </div>
@@ -184,8 +184,8 @@ session_start();
                               <img src="#" class="img-fluid" alt="">
                           </div>
                             <h3 class="card-title">Vehicle Store</h3>
-                            <p class="lead">Pending</p>
-                            <button class="btn bg-warning text-dark">Learn More</button>
+                            <p class="lead">Buy or sell your vehical</p>
+                            <a href="display_all.php"><button class="btn bg-warning text-dark">Learn More</button></a>
                         </div>
                     </div>
                 </div>
@@ -196,8 +196,8 @@ session_start();
                               <img src="#" class="img-fluid" alt="">
                           </div>
                             <h3 class="card-title">Spare Parts Store</h3>
-                            <p class="lead">Pending</p>
-                            <button class="btn bg-warning text-dark">Learn More</button>
+                            <p class="lead">Buy or sell your spare parts</p>
+                            <a href="spare_parts.php"><button class="btn bg-warning text-dark">Learn More</button></a>
                         </div>
                     </div>
                 </div>
@@ -209,8 +209,8 @@ session_start();
                               <img src="#" class="img-fluid" alt="">
                           </div>
                             <h3 class="card-title">Bidding</h3>
-                            <p class="lead">Pending</p>
-                            <button class="btn bg-warning text-dark">Learn More</button>
+                            <p class="lead">Bidding for your favorite product</p>
+                            <a href="bidding.php"><button class="btn bg-warning text-dark">Learn More</button></a>
                         </div>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ session_start();
  <!-- include footer -->
  <?php
  include("./includes/footer.php");
- ?>
+ ?> 
 </div>
 
 
@@ -281,3 +281,4 @@ session_start();
 
 
 
+<!--for getting the form download the code from download button-->

@@ -51,7 +51,7 @@ session_start();
 				</div>
 				<div class="btn ">
               <li class="nav-item">
-                <a class="nav-link" href="spare_parts.php">Spare Parts</a>
+                <a class="nav-link" href="">Spare Parts</a>
               </li> 
 				</div>
 				<?php 
@@ -132,7 +132,7 @@ session_start();
 
     <div class="row mx-auto container-fluid">
     <?php
-get_all_products();
+search_products();
 get_unique_categories();
 get_unique_brands();
     ?>

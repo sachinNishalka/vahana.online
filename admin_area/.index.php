@@ -21,10 +21,6 @@ session_start();
     <link rel="stylesheet" href="../css/style.css">
 	 <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/script.js"></script>
-    <!-- asiri links -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
 <body>
@@ -57,7 +53,7 @@ session_start();
 				</div>
 				<div class="btn ">
               <li class="nav-item">
-                <a class="nav-link" href="../spare_parts.php">Spare Parts</a>
+                <a class="nav-link" href="#services">Notices</a>
               </li> 
 				</div>
 				<?php 
@@ -69,7 +65,7 @@ session_start();
 				</div>";
 				}else { echo "<div class='btn '>
               <li class='nav-item'>
-                <a class='nav-link' href='../admin_area/index.php'>Post an Advertisement</a>
+                <a class='nav-link' href='./admin_area/index.php'>Post an Advertisement</a>
               </li>
 				</div>";}
 				?>
@@ -114,40 +110,31 @@ session_start();
   </h3>
   </div>
  <!--second nav-->
-
+ <div class="row">
+  <div class="col-md-12 bg-white p-1 d-flex align-item-center" >
+    <div class="px-5">
+      <a href="#"><img src="..\assets\user circle.png" alt="" class="adminimage"></a>
+      <p class="text-dark text-center"> Name</p>
+    </div>
     <!--button-->
-
-    
+    <div class="button text-center ">
+    <button class="my-1"><a href="insert_product.php" class="nav-link text-light bg-dark mxy-1">Veicle Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Vehicle Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">Spare Part Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Spare Part Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">Wanted Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Wanted Ad</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">Bidding</a></button>
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Bidding</a></button>
+    <!--<button><a href="index.php?insert_category" class="nav-link text-light bg-dark mxy-1">input category</a></button> -->
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Category</a></button>
+    <!-- <button><a href="index.php?insert_brand" class="nav-link text-light bg-dark mxy-1">input brand</a></button> -->
+    <button><a href="" class="nav-link text-light bg-dark mxy-1">View Brand </a></button>
+    </div>
   </div>
  </div>
  
  </div>
- <nav class="navbar navbar-expand-sm bg-white navbar-dark">
-      <ul class="navbar-nav">
-        <!--<button><a href="index.php?insert_category" class="nav-link text-light bg-dark mxy-1">input category</a></button> -->
-      <li class="nav-item ">
-        <a class="nav-link text-dark" href="#">View Category</a>
-      </li>
-         <!-- <button><a href="index.php?insert_brand" class="nav-link text-light bg-dark mxy-1">input brand</a></button> -->
-      <li class="nav-item ">
-       <a class="nav-link text-dark" href="#">View Brand</a>
-      </li> 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="#"id="navbardrop" role="button" data-toggle="dropdown">Post an Advertisement</a>
-          <div class="dropdown-menu text-dark">
-            <a class="dropdown-item" href="insert_product.php">Post Vehicle Ad</a>
-            <a class="dropdown-item" href="#">View Vehicle Ad</a>
-            <a class="dropdown-item" href="#">Post Spare Part Ad</a>
-            <a class="dropdown-item" href="#">View Spare Part Ad</a>
-            <a class="dropdown-item" href="#">Post Bidding Ad</a>
-            <a class="dropdown-item" href="#">View Bidding Ad</a>
-            <!-- <a class="dropdown-item" href="index.php?insert_category">input category</a> -->
-            
-            
-         </div>
-        </li>
-      </ul>
-  </nav>
 
 <div class="container">
   <?php
@@ -160,10 +147,14 @@ session_start();
   ?>
 </div>
 
-        
+
+<div class="p-2">
   <!-- include footer -->
 <?php
- //include("../includes/footer.php");
+ include("../includes/footer.php");
  ?>
+</div>
+  
+ </div>
 </body>
 </html>

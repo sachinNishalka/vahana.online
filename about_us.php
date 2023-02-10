@@ -17,7 +17,11 @@ session_start();
     <link rel="stylesheet" href="homepage.css">
     
     <title>About Us</title>
- 
+ <!--asiri links--> 
+ <link href="shop.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </head>
@@ -43,7 +47,7 @@ session_start();
 				</div>
 				<div class="btn">
               <li class="nav-item">
-				  <a class="nav-link" href="">Spare Parts</a>
+				  <a class="nav-link" href="spare_parts.php">Spare Parts</a>
 				  
               </li> 
 				</div>
@@ -196,11 +200,11 @@ session_start();
         
       </div>  
     </div>
-    <section class="contact">
+    <section class="contact-">
         <div class="content">
-            <h2><b>Contact Us</b></h2>
+            <h2><b><center>Contact Us</center></b></h2>
         </div>
-        <div class="contain">
+        <div class="contain-fluid p-4">
             <div class="contactInfo">
                 <div class="box">
                     <div class="icon"><i class="fas fa-phone mr-3"></i></div>
